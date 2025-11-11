@@ -1,6 +1,8 @@
-﻿/* Caso 1: Listado de Clientes con Rango de Renta */
+﻿ALTER SESSION SET NLS_NUMERIC_CHARACTERS=',.';
 
-ALTER SESSION SET NLS_NUMERIC_CHARACTERS=',.';
+
+/* Caso 1: Listado de Clientes con Rango de Renta */
+
 
 SELECT
   TO_CHAR(c.numrut_cli,
